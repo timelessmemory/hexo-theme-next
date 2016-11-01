@@ -3,10 +3,10 @@
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `hexo-site/source/` directory.
-favicon: /favicon.ico
+favicon: http://7xqayl.com1.z0.glb.clouddn.com/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "Hexo, timelessmemoryli, blog, timelessmemory, github"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -29,12 +29,12 @@ canonical: true
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories
-  #about: /about
+  categories: /categories
+  about: /about
   archives: /archives
   tags: /tags
-  schedule: /schedule
-  #commonweal: /404.html
+  # schedule: /schedule
+  commonweal: /404.html
 
 
 # Enable/Disable menu icons.
@@ -43,7 +43,7 @@ menu:
 #   Key is the name of menu item and value is the name of FontAwsome icon. Key is case-senstive.
 #   When an question mask icon presenting up means that the item has no mapping icon.
 menu_icons:
-  enable: false
+  enable: true
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   home: home
   about: user
@@ -53,17 +53,14 @@ menu_icons:
   archives: archive
   commonweal: heartbeat
 
-
-
-
 # ---------------------------------------------------------------
 # Scheme Settings
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
-#scheme: Pisces
+# scheme: Muse
+# scheme: Mist
+scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -112,9 +109,6 @@ font:
     family:
     size:
 
-
-
-
 # ---------------------------------------------------------------
 # Sidebar Settings
 # ---------------------------------------------------------------
@@ -123,9 +117,10 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
-  #LinkLabel: Link
-
+social:
+  GitHub: https://github.com/timelessmemory
+  CSDN: http://blog.csdn.net/u014788227
+  Weibo: http://weibo.com/u/3496611885
 
 # Social Links Icons
 # Icon Mapping:
@@ -139,6 +134,9 @@ social_icons:
   GitHub: github
   Twitter: twitter
   Weibo: weibo
+
+reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
+alipay: http://7xqayl.com1.z0.glb.clouddn.com/1.jpeg
 
 
 # Sidebar Avatar
@@ -241,10 +239,10 @@ mathjax:
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: 8d10e132c8a9ced56954f642a2f5fdfb
 
 # Duoshuo ShortName
-#duoshuo_shortname:
+duoshuo_shortname: timelessmemoryli
 
 # Disqus
 #disqus_shortname:
@@ -262,7 +260,7 @@ mathjax:
 #add_this_id:
 
 # Share
-#duoshuo_share: true
+duoshuo_share: true
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
@@ -308,15 +306,15 @@ facebook_comments_plugin:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  app_id: kpUrnNuaqbeoOYFayGoQa7vd-gzGzoHsz
+  app_key: MrXO11XJYfYNtekzCUXQcUi7
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
   # count values only if the other configs are false
-  enable: false
+  enable: true
   # custom uv span for the whole site
   site_uv: true
   site_uv_header: <i class="fa fa-user"></i>
@@ -334,7 +332,7 @@ busuanzi_count:
 # tencent_analytics:
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
-baidu_push: false
+baidu_push: true
 
 # Google Calendar
 # Share your recent schedule to others via calendar page
@@ -352,7 +350,6 @@ calendar:
   showDeleted: false
   singleEvents: true
   maxResults: 250
-
 
 #! ---------------------------------------------------------------
 #! DO NOT EDIT THE FOLLOWING SETTINGS
